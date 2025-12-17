@@ -1,11 +1,11 @@
 #API klici(spletni klici)
 import requests
 
-#baseUrl = "https://www.google.com/"
-#klic = requests.get(baseUrl)
+baseUrl = "https://www.google.com/"
+klic = requests.get(baseUrl)
 
-#print(klic)
-#print(klic.text)#text. pridobi raw data klica
+print(klic)
+print(klic.text)#text. pridobi raw data klica
 
 # scrape.
 
@@ -39,9 +39,9 @@ import requests
 #    print(d.get("country_id"),d.get("probability"))
     
 
-baseUrl = "https://auth0.com/"
-klic = requests.get(baseUrl)
+#baseUrl = "https://auth0.com/"
+#klic = requests.get(baseUrl)
 
-print(klic)
-print(klic.text)
-print(klic.get("Product"))
+#print(klic)
+#print(klic.text)
+#print(klic.get("Product"))
